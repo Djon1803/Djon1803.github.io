@@ -1,0 +1,122 @@
+html {
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 120px;
+  background-color: #161b22;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.header-section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.title-header {
+  color: white;
+  font-size: 45px;
+  text-decoration: solid;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.repositories {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  margin: 15px 40px;
+}
+
+.title-repository {
+  color: #8b949e;
+  font-size: 20px;
+  text-decoration: solid;
+}
+
+.repository {
+  color: white;
+  font-size: 18px;
+  text-decoration: solid;
+  margin: 0 15px;
+
+}
+.repository:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.title-sites {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-decoration: solid;
+  text-align: left;
+  padding: 35px 20px 10px 20px;
+  margin-left: 20px;
+}
+
+.row {
+  flex-direction: column;
+}
+.portfolio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.site {
+  width: 270px;
+  height: 285px;
+  margin: 14px 15px;
+  background-color: #161b22;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-width: 2px;
+
+  transition-property: background-color;
+  transition-property: border-radius;
+  transition-duration: 1s;
+}
+
+.site:hover {
+  background-color: rgba(0, 0, 0, 0.082);
+  color: #161b22;
+  animation-delay: 2s;
+  animation-direction: normal;
+  border-radius: 25px;
+  border-color: #161b22;
+  border-width: 2px;
+  border-style: solid;
+  margin: 12px 13px;
+
+  transition-property: background-color;
+  transition-property: border-radius;
+  transition-duration: 0.5s;
+}
+
+.site-image {
+  height: 60%;
+}
+
+.site-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.site-description {
+  margin: 15px;
+  text-align: left;
+  font-size: 20px;
+}
