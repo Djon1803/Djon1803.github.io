@@ -1,0 +1,1175 @@
+body {
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15px;
+    color: #000;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box; 
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+
+
+/* container */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header{
+    width: 100%;
+    height: 140px;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+
+.hendler_inner{
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo_cont{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+}
+
+.logo{
+    width: 100%;
+}
+
+.left_header{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left_logo{
+    margin-right: 35px;
+    opacity: 1;
+}
+
+.left_logo:hover{
+    opacity: .5;
+}
+
+.menu_pos{
+    opacity: 1;
+}
+
+.menu_pos:hover{
+    opacity: .5;
+}
+
+.menu{
+    margin-bottom: 4px;
+    width: 20px;
+    height: 4px;
+    background-color: #010101;
+}
+
+
+
+
+.img_g{
+    width: 22%;
+    border: 5px solid #f6f6f6;
+    margin-bottom: 17px;
+    margin-top: 17px;
+}
+
+
+.gelegi{
+    margin-top: 60px;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.border_text{
+    width: 100%;
+    min-height: 400px;
+    background: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+.text_h1{
+    text-align: center;
+    padding-top: 73px;
+    /* Style for "A Picture" */
+    color: #000000;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    /* Text style for "A,  Pictur" */
+    letter-spacing: 0.7px;
+}
+
+
+.text_h3{
+/*    width: 48%;*/
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    margin-top: 0;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: "Arial Narrow";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* Text style for "People pet" */
+    letter-spacing: 0.9px; 
+}
+
+.border_text2{
+    width: 70%;
+    margin: 0 auto;
+    text-align:center;
+    padding-top: 31px;
+    padding-bottom: 47px;
+}
+
+
+.border_btn{
+    position: relative;
+    text-align: center;
+    display:block;
+    background: #000000;
+    width: 193px;
+    height: 45px;
+    margin: 0 auto 20px;
+    opacity: 1;
+    padding-bottom: 20px;
+    
+}
+
+.border_btn:hover{
+    position: relative;
+    text-align: center;
+    display:block;
+    background: #000000;
+    width: 193px;
+    height: 45px;
+    margin: 0 auto; 
+    opacity: .7;
+    
+}
+
+.text_btn{
+    margin-top: 7px;
+    color: #ffffff;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    width: 193px;
+    height: 45px;
+}
+
+
+
+.exp_all{
+    display:flex; 
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.exemple{
+    width: 74%;
+    min-height:456px;
+    background: #ffffff;
+    
+    padding-top: 50px;
+}
+
+.border_text_2{
+    width: 100%;
+    display:flex;
+    
+}
+
+
+.container_exp{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    max-width: 654px;
+    margin-left:30px;
+    padding-bottom: 10px;
+    
+}
+
+.exp_cap{
+    width: 100%;
+    display:flex; 
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+/*    background: green;*/
+    /* Style for "A Picture" */
+    color: #989b9f;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    /* Text style for "A,  Pictur" */
+    letter-spacing: 0.14px;
+}
+
+.exp_cap_left{
+    width: 51%;
+    display:flex; 
+    justify-content: space-between; 
+    margin-right: 20px;
+}
+.exp_cap_right{
+        display: flex;
+}
+
+.img_left_10{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.text_h1_exp{
+    text-align: center;
+    padding-top: 20px;
+    /* Style for "A Picture" */
+    color: #000000;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    /* Text style for "A,  Pictur" */
+    letter-spacing: 0.7px;
+}
+
+.img_g2{
+    width: 95%;
+    border: 5px solid #f6f6f6;
+    margin-bottom: 5px;
+    margin-top: 24px;
+}
+
+
+.l_10_copy{
+    margin-left: 5px;
+    /* Style for "Flight ove" */
+    color: #6c6e72;
+    font-family: "Arial MT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    /* Text style for "Flight ove" */
+    letter-spacing: 0.12px;
+}
+
+
+
+.exp_all_2{
+    width: 100%;
+    display:flex;
+    justify-content: space-between; 
+    
+}
+
+
+.text_exp_1{
+    margin-top: 19px;
+    /* Style for "Dad blizza" */
+    color: #000000;
+    font-family: "Arial Narrow";
+    font-size: 17px;
+    letter-spacing: 0.85px;
+}
+
+.text_exp_2{
+    margin-top: 20px;
+    color: #636060;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+    
+.text_exp{
+    max-width: 388px;
+}
+
+
+.contect{
+    width: 20%;
+    display:block;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.name{
+    /* Style for "Author" */
+    color: #000000;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "A, uthor" */
+    letter-spacing: 0.2px;
+    
+    margin-top: 50px;
+}
+
+.surname{
+    font-family: "Arial - Italic MT";
+    color: #e6618c;
+    font-size: 14px;
+    letter-spacing: 0.65px;
+}
+
+
+.foto_cont{
+    margin-bottom: 39px;
+    margin-top: 16px;
+    opacity: 1;
+}
+.foto_cont:hover{
+    margin-bottom: 39px;
+    margin-top: 16px;
+    opacity: .5;
+}
+
+
+.cont_app{
+    padding-bottom: 16px;
+    color: #c8c8c8;
+    opacity: 1;
+}
+.cont_app:hover{
+    padding-bottom: 16px;
+    color: #c8c8c8;
+    opacity: .5;
+}
+
+
+.exp_bar{
+    width: 265px;
+    height: 470px;
+    
+    background: #ffffff;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    
+}
+
+
+.heading_exp{
+    text-align: center;
+    /* Style for "Categorys" */
+    color: #000000;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "C, ategory" */
+    letter-spacing: 0.2px;
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.text_bar{
+    /* Style for "Traveling" */
+    color: #000000;
+    font-family: "Arial MT";
+    font-size: 13px;
+    /* Text style for "Traveling" */
+    letter-spacing: 0.65px;
+    
+    margin-left: 12px;
+}
+
+
+
+.sup_exp_bar{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.img_bar{
+    margin-top: 7px;
+    margin-left: 30px;
+    width: 11px;
+    height: 6px;
+}
+
+.img_bar_2{
+    margin-top: 7px;
+    margin-left: 35px;
+    width: 6px;
+    height: 11px;
+}
+.img_bar_2_2{
+    margin-top: 7px;
+    margin-left: 30px;
+    width: 6px;
+    height: 11px;
+}
+
+.text_red{
+    font-family: "Arial - Italic MT";
+    color: #e6618c;
+    font-size: 13px;
+    letter-spacing: 0.65px;
+    text-decoration: underline;
+}
+
+.text_red_2{
+    font-family: "Arial - Italic MT";
+    color: #e6618c;
+    font-size: 13px;
+    letter-spacing: 0.65px;
+    text-decoration: underline;
+    margin-left: 9px;
+}
+
+.text_bar_end{
+    /* Style for "Traveling" */
+    color: #000000;
+    font-family: "Arial MT";
+    font-size: 13px;
+    /* Text style for "Traveling" */
+    letter-spacing: 0.65px;
+}
+
+
+
+
+
+
+
+.sub{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-bottom: 65px;
+}
+
+
+
+.sub_feet{
+    max-width: 565px;
+    min-height: 565px;
+    background: white;
+    padding: 32px;
+    margin-bottom: 35px;
+    margin-right: 10px;
+}
+
+.text_h1_exp_2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Style for "Contact Me" */
+    color: #000000;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    /* Text style for "C, ontact" */
+    letter-spacing: 0.7px;
+}
+
+
+.text_exp_2_2{
+    /* Style for "Mom hammer" */
+    color: #636060;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "Mom hammer" */
+    letter-spacing: 0.14px;
+}
+
+.input_forms{
+    width: 45%;
+    padding-bottom: 23px;
+    padding-top: 29px;
+    display: contents;   
+}
+
+.input_item{
+    width: 46%;
+    height: 45px;
+    margin: 8px 0;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    border: 1px solid #d6d6d6;
+    background-color: #f2f2f2;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    /* Style for "Your Name" */
+    font-family: "Arial - Italic MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "Y, our Nam" */
+    letter-spacing: 0.14px;
+}
+
+
+.name_text{
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 25px;
+    /* Style for "*required" */
+    color: #c0c0c0;
+    font-family: "Arial - Italic MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "*, require" */
+    letter-spacing: 0.14px;
+}
+
+.adress_text{
+    width: 38%;
+    margin-top: 20px;
+    margin-left: 25px;
+    /* Style for "*please en" */
+    color: #f2ba59;
+    font-family: "Arial - Italic MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "*, please" */
+    letter-spacing: 0.14px;
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+.input_message{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    
+    height: 240px;
+    
+    
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    border: 1px solid #d6d6d6;
+    background-color: #f2f2f2;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    /* Style for "Your Name" */
+    font-family: "Arial - Italic MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "Y, our Nam" */
+    letter-spacing: 0.14px;
+    resize: none;
+}
+
+.btn_seng{
+    height: 45px;
+    max-width: 193px;
+    background: black;
+    color: white;
+    text-align: center;
+    opacity: 1;
+}
+
+.btn_seng:hover{
+    height: 45px;
+    max-width: 193px;
+    background: black;
+    color: white;
+    text-align: center;
+    opacity: .5;
+}
+
+
+.btn_text_2{
+    padding-top: 10px;
+    /* Style for "Send E-Mai" */
+    color: #ffffff;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    /* Text style for "S, end E-M" */
+    letter-spacing: 1.35px;
+}
+
+
+.pr_50{
+    width: 50%;
+}
+
+.postr_all{
+    display: flex;
+    justify-content: space-between;
+    
+    /* Style for "Rectangle" */
+    width: 100%;
+}
+
+.postr{
+    padding: 5%;
+    
+    width: 46%;
+    min-height: 348px;
+    background: white;
+}
+
+.img_feet{
+    width: 100%;
+    border: 5px solid #f6f6f6;
+    margin-bottom: 5px;
+}
+
+
+.text_feet{
+    /* Style for "Some advis" */
+    color: #000000;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "S, ome adv" */
+    letter-spacing: 0.2px;
+}
+
+
+.postr_feet{
+    margin-top: 30px;
+    width: 100%;
+    min-height: 270px;
+    background: white;
+    
+    text-align: center;
+    
+    padding: 50px;
+}
+
+
+.logo_2{
+    /* Style for "Logo-Agenc" */
+    width: 165px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+
+.sup_logo_feet{
+    /* Style for "Newsletter" */
+    color: #000000;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    /* Text style for "N, ewslett" */
+    letter-spacing: 0.7px;
+    
+    margin-bottom: 10px;
+}
+
+.input_item_2{
+    /* Style for "Rectangle" */
+    width: 90%;
+    height: 45px;
+    border: 1px solid #d6d6d6;
+    background-color: #f2f2f2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.btn_seng_2{
+    width: 193px;
+    height: 45px;
+    background-color: #202020;
+    opacity: 1;
+}
+
+.btn_seng_2:hover{
+    width: 193px;
+    height: 45px;
+    background-color: #202020;
+    opacity: .5;
+}
+
+
+.father_btn{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.header_sub{
+    width: 100%;
+    height: 140px;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+.menu_sub{
+    margin-bottom: 4px;
+    width: 20px;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+
+.logo_sub{
+    width: 50%;
+    margin-left: 15%;  
+}
+
+@media screen and (max-width: 900px) {
+    
+    .exp_all_2{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    .exp_cap{
+        width: 100%;
+        display:block; 
+        justify-content: space-between;
+        text-align: center;
+        align-content: center;
+        flex-wrap: wrap;
+        /* Style for "A Picture" */
+        color: #989b9f;
+        font-family: "Arial MT";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        /* Text style for "A,  Pictur" */
+        letter-spacing: 0.14px;
+    }
+    
+    .exp_cap_left{
+        width: 100%;
+        display:flex; 
+        justify-content: space-between; 
+        margin-right: 20px;
+    }
+    
+    .exp_cap_right{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+}
+
+@media screen and (max-width: 685px) {
+    
+    .exp_cap{
+        width: 100%;
+        display:flex;
+        justify-content:flex-end;
+        flex-wrap: wrap;
+        text-align: left;
+        /* Style for "A Picture" */
+        color: #989b9f;
+        font-family: "Arial MT";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        /* Text style for "A,  Pictur" */
+        letter-spacing: 0.14px;
+    }
+    
+    .exp_cap_left{
+        width: 100%;
+        display:flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        margin-right: 20px;
+    }
+    
+    .exp_cap_right{
+        display: flex;
+        justify-content:flex-start;
+    }
+    
+    .left_logo{
+        margin-right: 10px;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .gelegi{
+        margin-top: 20px;
+        display: flex; 
+        justify-content: space-between; 
+        flex-wrap: wrap;
+    }
+    
+    .img_g{
+        width: 48%;
+        border: 5px solid #f6f6f6;
+        margin-bottom: 10px;
+        margin-top: 17px;
+    }
+    
+    
+    .border_text{
+        width: 100%;
+        min-height: 350px;
+        background: #ffffff;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .text_h1{
+        text-align: center;
+        padding-top: 30px;
+        /* Style for "A Picture" */
+        color: #000000;
+        font-family: "Yanone Kaffeesatz";
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 30px;
+        /* Text style for "A,  Pictur" */
+        letter-spacing: 0.7px;
+    }
+
+
+
+    .border_text2{
+        width: 95%;
+        margin: 0 auto;
+        text-align:center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 0 0;
+    }
+
+    
+    
+    
+    
+    .exp_all{
+        display:flex; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 30px;
+    }   
+
+
+    .exemple{
+        width: 100%;
+        min-height:456px;
+        background: #ffffff;
+
+        padding-top: 20px;
+    }
+
+
+
+
+    .exp_cap{
+        width: 100%;
+        display:block; 
+        justify-content: space-between;
+        text-align: center;
+        align-content: center;
+    /*    background: green;*/
+        /* Style for "A Picture" */
+        color: #989b9f;
+        font-family: "Arial MT";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        /* Text style for "A,  Pictur" */
+        letter-spacing: 0.14px;
+    }
+
+    .exp_cap_left{
+        width: 100%;
+        display:flex; 
+        justify-content: space-between; 
+        margin-right: 20px;
+    }
+    
+    .size_img_g2{
+        width: 100%;
+    }
+    
+    .img_g2{
+        width: 100%;
+        border: 5px solid #f6f6f6;
+        margin-bottom: 5px;
+        margin-top: 24px;
+    }
+    
+    .exp_bar{
+        width: 265px;
+        height: 470px;
+
+        background: #ffffff;
+        margin-left: 20px;
+        padding-bottom: 10px;
+        margin-top: 20PX;
+    }
+
+
+
+    .sub{
+        display:block;
+        margin-top: 55px;
+        margin-bottom: 65px;
+    }
+
+
+
+    .sub_feet{
+        max-width: 565px;
+        min-height: 565px;
+        background: white;
+        padding: 15px;
+        margin-bottom: 35px;
+        margin-right: 10px;
+    }
+
+   
+
+
+    .pr_50{
+        width: 100%;
+    }
+
+
+    .postr{
+        padding: 2px;
+        width: 48%;
+        height: 250px;
+        max-height: 250px;
+        background: white;
+    }
+
+    .postr_feet{
+        margin-top: 20px;
+        width: 100%;
+        min-height: 240px;
+        background: white;
+
+        text-align: center;
+
+        padding: 25px;
+    }
+
+
+  
+    
+
+}
+
+@media screen and (max-width: 550px) {
+    
+
+
+  .header{
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        opacity: 0.7;
+    }
+
+    .hendler_inner{
+        width: 100%;
+        height: 100px;
+        max-width: 1200px;
+        margin: 0 auto;
+        position:relative;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo_cont{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+    }
+
+    .logo{
+        top: 10px;
+        left: calc(50%-83px);
+        position: absolute;
+    }
+
+    .left_header{
+        margin-top: 25px;
+        width: 100%;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content:space-between;
+    }
+
+
+    .left_logo{
+        margin-right: 30px;
+        opacity: 1;
+    }
+
+    .left_logo:hover{
+        margin-right: 20px;
+        opacity: .5;
+    }
+
+    .menu_pos{
+        margin-top: 40px;
+        opacity: 1;
+    }
+
+    .menu_pos:hover{
+        margin-top: 40px;
+        opacity: .5;
+    }
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+    
+    .text_h1{
+        font-size: 20px;
+    }
+    
+    .text_h3{
+        font-size: 13px;
+    }
+    
+    
+    .text_h1_exp{
+        font-size: 18px;
+    }   
+     
+    h4{
+        font-size: 13px;
+    }
+    
+    .postr_all{
+        flex-wrap: wrap;
+    }
+    
+    .postr{
+        margin-bottom: 15px;
+        padding: 2%;
+        width: 100%;
+        min-height: 370px;
+    }
+    
+    .text_h1_exp_2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .postr_feet{
+    margin-top: 20px;
+    padding: 20px;
+    }
+    
+    .input_item_2{
+        width: 100%;
+    }
+    
+    .flex{
+        display:block;
+        flex-wrap: wrap;
+    }
+    
+    
+    .input_item{
+        width: 100%;
+    }
+    
+    
+    .name_text{
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .adress_text{
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+}
