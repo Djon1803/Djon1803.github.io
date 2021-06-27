@@ -1,0 +1,1730 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+@font-face {
+    font-family: 'stampbor_grunge_russianRg';
+    src: url('stampbor_grunge_graphicsland.ru-webfont.woff2') format('woff2'),
+    url('stampbor_grunge_graphicsland.ru-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'stampbor_grunge_russianRg';
+    background-color: #0b0b0b;
+    font-size: 50px;
+    line-height: 1.6;
+}
+
+p,h1,h2,h3,h4,h5,h6,section{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.sec1{
+    background-image: url(../img/layer1.jpg);
+    min-height: 814px;
+}
+
+.sec1-t1{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 103px;
+}
+.sec1-t2{
+    color: #ffffff;
+    font-size: 61px;
+    font-weight: 800;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 148px;
+    text-transform: uppercase;
+}
+
+.sec1-t3{
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: normal;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 295px;
+}
+
+.sec1-t4{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 22px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+
+.block-bottom{
+    border-radius:5px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 33px;
+}
+
+.form{
+    width: 970px;
+    height: 50px;
+    margin-top: 27px;
+    margin: 0 auto;
+    background-color: #b12f2f;
+    display: flex;
+    margin: auto auto;
+}
+
+.input2{
+    width: 220px;
+    height: 50px;
+    color: #4d4d4d;
+    font-family: "Decima Nova Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    border-color: #fff;
+    border-style: none;
+    padding-left: 20px;
+}
+
+.input2:active, .input2:hover, .input2:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.palka{
+    list-style-type: none;
+    margin: 10px 0px 10px 0px;
+    width: 1px;
+    height: 30px;
+    background-color: #e2e2e2;
+}
+
+
+
+.post{
+    display: flex;
+}
+
+.inpb{
+    height: 50px;
+    background-color: #fff;
+    padding: auto auto;
+    display: flex;
+}
+
+.se1-inp1{
+    width: 215px;
+    height: 100px;
+    border: none;
+}
+
+.sec1-btn{
+    cursor: pointer;
+    width: "calc(100%-330px)";
+    height: 50px;
+    background-color: #b12f2f;
+    color:#fff;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin: 0 auto;
+}
+
+.mativ{
+    background-color: #0b0b0b;
+    height: 232px;
+}
+
+.block2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.b2-t1{
+    width: 312px;
+    height: 232px;
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    background-color: #ff44;
+    background: url(../img/question1.png) 1% no-repeat;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+.sec2{
+    background-image: url(../img/layer2.jpg);
+    min-height: 850px;
+}
+.container2{
+    margin: 0 auto;
+    max-width: 1257px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.block3{
+    text-align: center;   
+}
+
+.sec2-t1{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 43px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 239px;
+}
+
+.sec2-t2{
+    display: flex;
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.sec2-t2-1{
+    color: #a33331;
+    margin-right: 8px;
+}
+
+.block3-1{
+    height: 127px;
+    background-image: url(../img/block3-1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block3-1t{
+    display: flex;
+}
+
+.block3-1-t{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 11px;
+    padding-top: 11px
+}
+
+.sec2-time{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 56px;
+    margin-bottom: 40px;
+
+}
+
+.sec2-t3{
+    width: 217px;
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: right;
+
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: auto 32px auto 0px;
+
+}
+
+.sec2-t-big{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.sec2-t-little{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.sec2-t-big-s{
+    color: #b12f2f;
+    font-family: "Decima Nova Pro";
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.sec2-t-little-s{
+    color: #b12f2f;
+    font-family: "Decima Nova Pro";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.sec2-t-2{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 46px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.sec2-t4{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 33px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.sec3{
+    background-color: #0b0b0b;
+    height: 1058px;
+
+}
+
+.block4{
+
+}
+
+.block4-1{
+    display: flex
+}
+
+.block4-img1{
+    margin-top: -45px;
+    margin-bottom: -30px;
+}
+
+
+
+.sec3-t{
+    width: 666px;
+    margin-left: 24px;
+}
+
+.sec3-t1{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 33px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 52px;
+    text-align: left;
+    padding-top: 80px;
+    margin-left: 12px;
+    margin-bottom: 52px;
+}
+
+.block4-targets{
+    display: flex
+}
+
+
+.block4-img2{
+    height: 16px;
+    margin: 16px;
+}
+
+.sec3-t2{
+    margin: auto 32px auto 0px;
+
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.block4-2{
+    height: 210px;
+    background-image: url(../img/block4-2.png);
+    padding-bottom: 58px;
+}
+
+.sec3-t3{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding-top: 35px;
+}
+
+
+.sec3-t4{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px 218px;
+    padding-top: 24px;
+}
+
+.sec3-t5{
+    color: #b12f2f;
+    font-family: "Decima Nova Pro";
+    font-size: 80px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding-top: 28px;
+}
+
+.sec3-t6{
+    color: #b12f2f;
+    font-family: "Decima Nova Pro Lt";
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin-top: -45px;
+}
+
+.sec3-t7{
+    color: #ffffff;
+    font-family: "Decima Nova Pro Lt";
+    font-style: normal;
+    letter-spacing: normal;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+.sec4{
+    background-image: url(../img/layer4.jpg);
+    height: 850px;
+}
+
+
+.sec4-t1{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 44px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: center;
+    padding: 148px 177px 0px 177px;
+}
+
+.block5-1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 71px;
+    padding-top: 92px;
+}
+
+.sec4-t{
+    display: flex;
+    text-align: center;
+}
+
+.right-top{
+    padding-bottom: auto;
+    height: 15px;
+    width: 15px;
+}
+
+.left-bottom{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    bottom: calc(-100% + 15px);
+}
+
+.sec4-t2{
+    width: 207px;
+    height: 77px;
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+.sec4-t3{
+    width: 291px;
+    height: 73px;
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+.sec4-t4{
+    width: 230px;
+    height: 73px;
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.block5-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 71px;
+    padding-top: 56px;
+}
+
+.sec4-t-2{
+    display: flex;
+    padding: 0 52px;
+    text-align: center;
+}
+
+.sec4-t5{
+    width: 210px;
+    height: 73px;
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+.sec4-t6{
+    width: 240px;
+    height: 73px;
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.sec4-t7{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 44px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 0 1px;
+    padding-top: 69px;
+}
+
+.sec4-t8{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 44px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 0 1px;
+    padding-bottom: 21px;
+}
+
+.sec5{
+    background-color: #0b0b0b;
+    height: 932px;
+}
+
+.sec5-t1{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 35px;
+}
+
+.block6-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block6-2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(../img/layer5.jpg);
+    width: 970px;
+    height: 600px;
+}
+
+.block6-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.sec5-1{
+    width: 115px;
+    height: 45px;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5-t2{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    margin: auto auto;
+    text-transform: uppercase;
+}
+
+.sec5-2{
+    width: 115px;
+    height: 45px;
+    background-color: #b12f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5-t2{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sec5-3{
+
+}
+
+.sec5-t3{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.sec5-t3{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    padding-bottom: 7px;
+}
+
+.sec5-t4{
+    color: #d0d0d0;
+    font-family: "Decima Nova Pro";
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 26px;
+}
+
+.sec5-t5{
+    color: #ffffff;
+    font-family: "Decima Nova Pro Lt";
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.sec5-t6{
+    color: #b12f2f;
+    font-family: "Decima Nova Pro Lt";
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.sec6{
+    background-image: url(../img/layer6.jpg);
+    height: 800px;
+}
+
+.sec6-t1{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding-top: 50px;
+}
+.sec6-t1-1{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.sec6-t{
+    display: flex;
+    text-align: center;
+    padding-top: 23px;
+    padding-left: 277px;
+}
+
+.sec6-t2{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.sec6-t3{
+    width: 150px;
+    height: 30px;
+    background-color: #b12f2f;
+    border-radius: 30px;
+
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+
+
+.block7-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+    padding: 0 120px;
+}
+
+.block7-1-1{
+    display: flex;
+    flex-wrap: wrap;
+    width:360px;
+
+}
+
+.sec6-img1{
+    padding: 5px;
+}
+
+.sec7{
+    background-image: url(../img/layer7.jpg);
+    height: 600px;
+}
+
+.block7{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sec7-t1{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 57px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 53px;
+}
+
+.sec7-btn{
+    cursor: pointer;
+    width: 100%;
+    background-color: transparent;
+    border-style: none;
+    text-align: center;
+    margin-top: 166px;
+}
+
+.sec7-img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.sec7-t2{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.sec8{
+    height: 1558px;
+}
+
+.container9{
+    margin: 0 auto;
+    max-width: 1320px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.block91{
+    display: flex;
+}
+
+.block91-1{
+    margin-left: -38px;
+    margin-top: -119px;
+}
+
+.block91-2{
+
+}
+.block91-2t{
+    display: flex;
+}
+.block91-2t2{
+    padding-top: 84px;
+}
+
+.sec8-t1{
+    width: 382px;
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 131px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 94px;
+    text-align: center;
+    margin: 47px 44px 0px -109px;
+    z-index: -1;
+}
+.sec8-t-{
+    font-size: 80px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+.sec8-t2{
+    width: 350px;
+    color: #ffffff;
+    font-family: "Decima Nova Pro Lt";
+    font-size: 19px;
+    font-weight: 4;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.block91-2-1{
+    padding: 0px 0px 0px 0px;
+    margin: 52px 0px 0px 77px;
+    width: 635px;
+}
+.block91-2-1-1{
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 12px 0px 0px 0px;
+}
+.sec8-img1{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 23px;
+    height: 20px;
+    text-align: center;
+    margin: auto 0;
+    margin-right: 13px;
+}
+
+.sec8-t3{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sec8-btn{
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    margin: 51px 0px 0px 75px;
+    text-align: center;
+    width: 370px;
+    height: 50px;
+    background-color: #b12f2f;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+
+
+.block92{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 1330px;
+    text-align: center;
+
+}
+
+.sec8-t4{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: center;
+    /* Text style for "С ТОБОЙ ТА" */
+    font-size: 35px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sec8-t5{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    color: #b12f2f;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.block92-0{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 60px 0px 0px 0px;
+}
+
+.block92-1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 30px 0px;
+}
+
+.sec8-img2{
+    width: 270px;
+    height: 290px;
+}
+.block92-1-1{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 350px;
+}
+
+
+.sec8-t10 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 34px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    text-align: left;
+    padding: 0px 50px 0px 0px;
+    margin: 0px 0px 31px 25px;
+}
+
+.sec8-t11{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+    padding: 0px 53px 0px 0px;
+    margin: 0px 0px 0px 30px;
+}
+
+.sec9{
+    height: 650px;
+    background-image: url(../img/layer9.jpg);
+}
+
+.block10{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sec9-t1{
+    color: #b12f2f;
+    font-family: "Decima Nova Pro";
+    font-size: 64px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 15px;
+    text-align: center;
+    padding: 140px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sec9-t2{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px 50px;
+    margin: -5px 0px 138px 0px;
+}
+
+.sec9-t3{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 33px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 45px;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+.form9{
+    width: 1030px;
+    height: 50px;
+    margin-top: 27px;
+    margin: 0 auto;
+    background-color: #b12f2f;
+    display: flex;
+    margin: auto auto;
+    margin-top: 30px;
+    border-radius: 2px;
+}
+
+.form9-1{
+    display: flex;
+}
+
+.sec9-input1{
+    width: 203px;
+    height: 50px;
+    color: #4d4d4d;
+    font-family: "Decima Nova Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    border-color: #fff;
+    border-style: none;
+    padding-left: 29px;
+}
+
+.sec9-input2{
+    width: 199px;
+    height: 50px;
+    color: #4d4d4d;
+    font-family: "Decima Nova Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    border-color: #fff;
+    border-style: none;
+    padding-left: 26px;
+}
+
+.sec9-input3{
+    width: 247px;
+    height: 50px;
+    color: #4d4d4d;
+    font-family: "Decima Nova Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    border-color: #fff;
+    border-style: none;
+    padding-left: 21px;
+}
+
+.sec9-input2:active, .sec9-input2:hover, .sec9-input2:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+
+.sec9-btn{
+    cursor: pointer;
+    min-width: 378px;
+    background-color: #b12f2f;
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin: auto auto;
+    padding: 0 0px;
+}
+
+.sec10{
+    height: 603px;
+    background-color: #0b0b0b;
+}
+
+.container10{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.block11{
+    padding: 0px 0px 0px 0px;
+    margin: 88px 0px 0px 0px;
+}
+
+.block11-1{
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.block11-1-1{
+    min-width: 570px;
+    height: 420px;
+    background-color: #181818;
+    text-align: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sec10-img1{
+    width: 50px;
+    height: 57px;
+    padding: 0px 0px 0px 0px;
+    margin: 152px 0px 0px 0px;
+}
+
+.sec10-btn1{
+    cursor: pointer;
+    text-align: center;
+    width: 270px;
+    min-height: 35px;
+    background-color: #762626;
+    display: flex;
+    border: none;
+    border-style: none;
+    padding: 7px 13px;
+    margin: 31px 0px 0px 148px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.sec10-img2{
+    width: 20px;
+    height: 19px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 4px 0px 0px;
+    
+}
+
+.sec10-t1{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.block11-1-2{
+    padding: 0px 0px 0px 27px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.sec10-t2{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 31px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    margin: 95px 0px 0px 0px;
+    
+}
+
+.sec10-t3{
+    width: 522px;
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 37px 0px 0px 0px;
+    
+}
+
+.sec10-t4{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    margin: 28px 0px 0px 0px;
+    
+}
+
+.sec10-form1{
+    width: 1000px;
+    height: 50px;
+    background-color: #b12f2f;
+    padding: 0px 0px 0px 0px;
+    margin: 33px 0px 0px 0px;
+    border-radius: 2px;
+    display: flex;
+}
+
+.sec10-input1{
+    border-style: none;
+    color: #4d4d4d;
+    font-family: "Decima Nova Pro";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+    width: 570px;
+    background-color: #ffffff;
+    padding: 0px 0px 0px 29px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.sec10-btn2{
+    cursor: pointer;
+    width: 430px;
+    background-color: #b12f2f;
+    border-radius: 2px;
+    border-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.sec11{
+    height: 1050px;
+    background-image: url(../img/layer11.jpg);
+}
+
+.block12{
+
+}
+.block12-1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px 0px 0px;
+    margin: 0px 0px 40px 0px;
+}
+
+.block12-2{
+    width: 1331px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px -68px;
+}
+
+.sec11-t1{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sec11-t2{
+    font-family: "Stampbor Grunge Russian";
+    font-size: 50px;
+    font-weight: 900;
+    color: #b12f2f;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    
+}
+.sec11-t3{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 70px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.sec11-t4{
+    width: calc(100% / 3.333);
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 67px 0px;
+}
+.sec11-t11{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 19px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding: 0px 225px;
+    margin: 15px 0px 0px 0px;
+}
+
+.sec11-btn1{
+    cursor: pointer;
+    width: 330px;
+    height: 50px;
+    background-color: #b12f2f;
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    margin: 102px 0px 0px 422px;
+    border-radius: 2px;
+}
+
+
+
+.sec12{
+    height: 650px;
+
+    background-image: url(../img/layer12.jpg);
+    padding: 0px 0px 0px 0px;
+    margin: 0 auto;
+}
+
+.block13{
+
+}
+
+.swaps{
+
+}
+
+.swap{
+
+}
+
+.sec12-t1{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 39px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: center;
+    padding: 54px 210px;
+}
+
+.sec12-t2{
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 66px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 65px 0px 40px 0px;
+}
+
+.sec12-t3{
+    color: #ffffff;
+    font-family: "Decima Nova Pro";
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 35px;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: 700px;
+}
+
+.swiper-container{
+height: 410px;
+
+}
+
+.swiper-pagination-bullet {
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: .5;
+
+    margin: 0px 30px;
+
+
+
+    color: #ffffff;
+    font-family: "Stampbor Grunge Russian";
+    font-size: 45px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: center;
+    /* Text style for "1    ," */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.swiper-pagination-bullet-active {
+   margin: 0px 30px;
+
+   opacity: .5;
+width: 0px;
+    height: 0px;
+  font-family: "Stampbor Grunge Russian";
+  font-size: 45px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 50px;
+  text-align: center;
+
+  color: #b12f2f;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+
+.swiper-pagination {
+    position: relative;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+}
+
+.swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet {
+    padding: 30px 30px;
+    opacity: 1;
+    background-color: initial;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}

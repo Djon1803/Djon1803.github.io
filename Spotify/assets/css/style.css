@@ -1,0 +1,1321 @@
+
+
+
+body {
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15px;
+    color: #000;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: none; 
+}
+
+.container_hat_top{
+	width: 100%;
+    height: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+
+    color: #ffffff;
+
+}
+
+.lang{
+	color: #ffffff;
+	text-decoration: underline; 
+}
+
+.x{
+	color: #ffffff;
+}
+
+.hat{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:10;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin: 0 auto;
+	height: 80px;
+}
+.container_hat{
+	width: 100%;
+    height: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: nowrap;
+    
+
+    color: #ffffff;
+}
+
+.hat_left{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;	
+}
+
+.img_logo{
+	padding-left: 10px;
+	width: 50px;
+	float: left;
+}
+.hat_left_text{
+	padding-left: 8px;
+	color: #fff;
+	font-size: 24px;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+
+}
+
+.hat_right{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+	top: 0;
+	right: 0;
+}
+
+.hat_right2{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+
+
+.hat_right_text{
+	font-size: 16px;
+	padding: 0px 5px;
+	margin: 0px 10px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+.hat_right_text:hover, .hat_right_text:focus{
+	color: #2d46b8;
+}
+
+.palka{
+	list-style-type: none;
+	margin: 5px 0px 0px 20px;
+
+	background-color: #ffffff;
+	min-width: 1px;
+	max-height: 16px;
+	height: 100%;
+	margin: 0px 10px;
+}
+
+.prof_text{
+	padding-left:7px;
+	font-size: 15px;
+}
+
+.prof{
+	font-size: 16px;
+	padding: 0px 5px;
+	margin: 0px 10px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.prof:hover, .prof:focus{
+	color: #2d46b8;
+}
+
+.btn_right_text{
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px;
+
+
+
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+	outline: none;
+
+
+}
+.btn_right_text{
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px;
+
+
+
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+	outline: none;
+
+
+}
+.btn_right_text:hover, .btn_right_text:focus{
+	color: #2d46b8;
+}
+
+
+
+
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    min-height: 60px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 100;
+}
+
+.show {display: block;}
+
+.drop_a{
+	min-width: 160px;
+    min-height: 40px;
+    display: flex;
+    align-items: space-between;
+}
+
+.dropdown_text_akk{
+	padding: 10px 15px;
+	align-items: center;
+	color:#000;
+	font-size: 16px;
+	width: 100%;
+}
+
+.dropdown_text_akk:hover, .dropdown_text_akk:focus{
+	color: #2d46b8;
+}
+
+.dropdown_text_exit{
+	padding: 10px 15px;
+	align-items: center;
+	color:#919496;
+	font-size: 16px;
+	width: 100%;
+}
+
+.dropdown_text_exit:hover, .dropdown_text_exit:focus{
+	color: #2d46b8;
+}
+
+
+
+.hat_right2{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+
+.dropdown2{
+	display: none;
+}
+
+.dropdown3{
+	display: none;
+    float: right;
+    position: relative;
+}
+
+.dropdown3_btn{
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	font-size: 14px;
+}
+
+.dropdown3_btn:hover, .dropdown3_btn:focus{
+
+}
+
+
+.menu{
+    margin-bottom: 4px;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.drop2_a{
+	color: #fff;
+}
+
+.close{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.palka_goriz{
+	background-color: #ffffff;
+	width: 25px;
+	height: 2px;
+	margin: 18px 0px 40px;
+}
+
+
+
+.drop_menu_top{
+	font-size: 36px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+.drop_menu_top:hover, .drop_menu_top:focus{
+	color: #2d46b8;
+}
+.drop_menu_bottom{
+	font-size: 28px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+.drop_menu_bottom:hover, .drop_menu_bottom:focus{
+	color: #2d46b8;
+}
+
+.drop_logo{
+	height: 50%;
+	display: flex;
+	align-items: flex-end;
+}
+
+
+
+/**
+ * Переключаемая боковая панель навигации
+ * выдвигающаяся справа
+ */
+
+.nav {
+    /*  ширна произвольная, не стесняйтесь экспериментировать */
+    width: 320px;
+    min-width: 430px;
+    /* фиксируем и выставляем высоту панели на максимум */
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    /* сдвигаем (прячем) панель относительно правого края страницы */
+    right: -430px;
+    /* внутренние отступы */
+    padding: 38px;
+    /* плавный переход смещения панели */
+    -webkit-transition: right 0.3s;
+    -moz-transition: right 0.3s;
+    transition: right 0.3s;
+    /* определяем цвет фона панели */
+    background: #000;
+    /* поверх других элементов */
+    z-index: 2000;
+
+}
+.nav label{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav a{
+	display: flex;
+	align-items: flex-end;
+}
+
+
+/**
+ * Кнопка переключения панели
+ * тег <label>
+ */
+
+.nav-toggle {
+    /* абсолютно позиционируем */
+    /* относительно правого края панели */
+    /* отступ от верхнего края панели */
+    /* внутренние отступы */
+    padding: 2px;
+    /* определяем цвет фона переключателя
+     * чаще вчего в соответствии с цветом фона панели
+    */
+    background: inherit;
+    /* цвет текста */
+    color: #fff;
+    /* вид курсора */
+    cursor: pointer;
+    /* размер шрифта */
+    font-size: 30px;
+    line-height: 3;
+    /* всегда поверх других элементов страницы */
+    z-index: 6001;
+    /* анимируем цвет текста при наведении */
+    -webkit-transition: color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out;
+    transition: color .25s ease-in-out;
+}
+
+
+/* определяем текст кнопки 
+ * символ Unicode (TRIGRAM FOR HEAVEN)
+*/
+
+.nav-toggle:after {
+    content: '\2630';
+    text-decoration: none;
+}
+
+
+/* цвет текста при наведении */
+
+.nav-toggle:hover {
+    color: #f4f4f4;
+}
+
+
+/**
+ * Скрытый чекбокс (флажок)
+ * невидим и недоступен :)
+ * имя селектора атрибут флажка
+ */
+
+[id='nav-toggle'] {
+    position: absolute;
+    display: none;
+}
+
+
+/**
+ * изменение положения переключателя 
+ * при просмотре на мобильных устройствах
+ * когда навигация раскрыта, распологаем внутри панели
+*/
+
+[id='nav-toggle']:checked ~ .nav > .nav-toggle {
+    left: auto;
+    right: 2px;
+    top: 1em;
+}
+
+
+/**
+ * Когда флажок установлен, открывается панель
+ * используем псевдокласс:checked
+ */
+
+[id='nav-toggle']:checked ~ .nav {
+    right: 0;
+    box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
+    -moz-box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
+    -webkit-box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
+    overflow-y: auto;
+}
+
+
+/* 
+ * смещение контента страницы
+ * на размер ширины панели,
+ * фишка необязательная, на любителя
+*/
+
+[id='nav-toggle']:checked ~ main > article {
+    -webkit-transform: translateX(-320px);
+    -moz-transform: translateX(-320px);
+    transform: translateX(-320px);
+}
+
+
+/*
+ * изменение символа переключателя,
+ * привычный крестик (MULTIPLICATION X), 
+ * вы можете испльзовать любой другой значок
+*/
+
+[id='nav-toggle']:checked ~ .nav > .nav-toggle:after {
+    content: '\2715';
+}
+
+
+/**
+ * профиксим баг в Android <= 4.1.2
+ * см: http://timpietrusky.com/advanced-checkbox-hack
+ */
+
+
+
+/**
+ * Формируем стиль заголовка (логотип) панели 
+*/
+
+
+
+/*плавное появление заголовка (логотипа) при раскрытии панели */
+
+[id='nav-toggle']:checked ~ .nav h2 {
+    opacity: 1;
+    transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+}
+
+
+/**
+ * формируем непосредственно само меню
+ * используем неупорядоченный список для пунктов меню
+ * прикрутим трансфомации и плавные переходы
+ */
+
+.nav > ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+[id='nav-toggle']:checked ~ .nav > ul {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+
+/* определяем интервалы появления пунктов меню */
+
+
+/**
+ * оформление ссылок пунктов меню
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img_profile{
+	width: 40px;
+	margin-right: 7px;
+}
+
+.img_down{
+	margin-left: 7px;
+	padding-top: 2px;
+	width: 11px;
+}
+
+.hat_top{
+	background-color: #509bf5;
+	height: 57px;
+	margin: 0 auto;
+}
+
+
+
+
+.main1{
+	background: #509bf5 url(premium_dancer.png) right bottom no-repeat;
+	color: #ffffff;
+}
+.container{
+	width: 100%;
+    max-width: 1160px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+}
+
+
+
+
+.btn_prem_all{
+	padding-top: 80px;
+}
+.text_prem_h1{
+	padding-top: 70px;
+}
+
+.main2{
+	background-color: #ffffff;
+	color: #000;
+	height: 100%;
+}
+.container2{
+	width: 100%;
+    height: 100%;
+    max-width: 1160px;
+    padding-bottom: 50px;
+    padding-top: 90px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+
+h1{
+	padding-top: 15px;
+	font-size:80px;
+	line-height: 120%;
+}
+
+h3{
+	margin-top: 35px;
+	font-size: 29px;
+}
+
+button{
+	font-size: 20px;
+}
+
+.btn_preum{
+	margin-top: 35px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+
+.text_btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.btn_sub{
+	background-color: #1db954;
+	color: #fff;
+	border: 0px;
+	width: 300px;
+	height: 58px;
+	font-size: 14px;
+	border-radius: 30px;
+	margin: 5px 5px;
+
+}
+
+.btn_sub:hover, .btn_sub:focus {
+	border: 0px;
+	width: 310px;
+	height: 60px;
+	font-size: 15px;
+	border-radius: 30px;
+	margin: 0px 0px;
+    background-color: #1ed760;
+}
+
+.btn_see{
+	background-color: #509bf5;
+	color: #fff;
+	width: 250px;
+	height: 58px;
+	font-size: 14px;
+	border-radius: 30px;
+    border: 2px solid #fff;
+    margin: 5px 5px;
+
+}
+
+.btn_see:hover, .btn_see:focus {
+	border: 0px;
+	width: 260px;
+	height: 60px;
+	font-size: 15px;
+	border-radius: 30px;
+	margin: 0px 0px;
+	border: 2px solid #fff;
+    background-color: #509bf5;
+}
+
+.text_prem{
+	display: flex;
+    align-items: flex-end;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.text_us{
+	font-size: 12px;
+	color: #fff;
+	float: left;
+	text-decoration: none; 
+	padding-right: 5px;
+}
+
+.text_u_s{
+	font-size: 12px;
+	color: #fff;
+	text-decoration: underline;
+	float: left;
+}
+
+
+
+h2{
+	font-size: 47px;
+	line-height: 120%;
+	padding-bottom: 10px;
+}
+
+.h_4{
+	font-size: 18px;
+	line-height: 120%;
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+.text_btn_web{
+	color: #616467;
+}
+
+.text_btn2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	color: #616467;
+}
+
+.web_btn{
+	background-color: #ffffff;
+	color: #616467;
+	width: 250px;
+	height: 58px;
+	font-size: 14px;
+	border-radius: 30px;
+	border: 2px solid #616467;
+
+}
+.web_btn:hover, .web_btn:focus, .text_btn2:hover {
+    border-radius: 30px;
+    background-color: #616467;
+    color:#FFF;
+}
+
+.text_btn2: {
+    
+    background-color: #616467;
+    color:#ffffff;
+}
+
+.swiper-container{
+	display: none;
+}
+
+
+.plaer_2{
+	display: none;
+}
+
+
+
+.img_pleyr{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 80px 0px;
+	color: #fff;
+}
+
+.text_music_name{
+ 	font-size: 32px;
+ }
+
+.text_music_actor{
+ 	font-size: 18px;
+ }
+
+.text_hear{
+	color:#1db954;
+	font-size: 17px;
+	padding-top: 30px;
+}
+
+.text_hear:hover, .text_hear:focus{
+  	color:#1ed760;
+ }
+
+
+
+
+
+
+
+.block_img_music{
+	position: relative;
+	height: 380px;
+	width: 380px;
+	margin: 3px;
+	
+}
+.img_text_music{
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	flex-wrap: wrap;
+ 	flex-direction: column;
+ 	opacity: 0;
+}
+.img_text_music:hover, .img_text_music:focus{
+	background-color: rgba(0, 0, 0, 0.8);
+  	opacity: 1;
+  	
+ }
+.img_block{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+.img_music{
+	max-height: 380px;
+	margin:3px;
+}
+
+
+.sub_hat{
+	background-color: #000000;
+	height: 536px;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+.container_sub_hat{
+	width: 100%;
+    height: 100%;
+    padding: 80px 0px 50px;
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.container_sub_hat2{
+	display: flex;
+    justify-content: space-between;
+}
+
+.hat_left1{
+	padding-top: 10px;
+}
+
+.table_sub{
+	width: 190px;
+	padding: 0px 15px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.text_grup{
+	color:#919496;
+	font-size: 16px;
+	font-weight:600;
+	padding: 15px 0px 15px;
+
+}
+
+.text_gr{
+	padding: 10px 0px;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight:600;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.text_gr:hover, .text_gr:focus{
+	color:#0ed760;
+}
+
+.table_left{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.table_sub_1{
+	margin: 10px 15px 0px 183px;
+	min-width: 192px;
+}
+
+.table_sub_2{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.img_logo_ss{
+	max-width: 54px;
+	height: 54px;
+	float: left;
+}
+
+
+.rus{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.rus_text{
+	font-family: Arial;
+	color: #919496;
+	font-size: 12px;
+}
+
+.rus_text:hover, .rus_text:focus{
+	color:#0ed760;
+}
+
+.img_rus{
+	margin-left: 10px;
+}
+
+.container_sub_hat_2{
+	display: flex;
+	justify-content: space-between;
+}
+
+.container_sub_hat_2_1{
+	margin-right: 45px;
+	padding-left: 10px;
+}
+
+.h_6{
+	font-family: Arial;
+	color: #919496;
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+.h_6:hover, .h_6:focus{
+	color: #0ed760;
+}
+
+.container_sub_hat_2_2{
+	
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	.btn_prem_all{
+	padding-top: 10px;
+	}
+	.text_prem_h1{
+	padding-top: 50px;
+	}
+	.container{
+		width: 970px;
+		padding-top: 50px;
+    	max-width: 1160px;
+    	padding-bottom: 35px;
+	}
+	.container_hat{
+		width: 970px;
+	}
+
+	.container_sub_hat{
+		width: 100%;
+    	height: 100%;
+    	padding: 80px 0px 50px;
+    	width: 970px;
+	}
+
+	.container2{
+		width: 100%;
+    	height: 100%;
+    	width: 970px;
+	}
+
+
+.block_img_music{
+	height: 308px;
+ 	width: 308px;	
+}
+
+.table_sub_1{
+	margin: 10px 15px 0px 0px;
+}
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+
+	.text_music_name{
+ 	font-size: 22px;
+ }
+
+.text_music_actor{
+ 	font-size: 17px;
+ }
+
+.text_hear{
+	font-size: 16px;
+}
+
+	.btn_prem_all{
+	padding-top: 10px;
+	}
+	.text_prem_h1{
+	padding-top: 50px;
+	}
+
+	.hat{
+		background-color: #000;
+	}
+
+	.hat{
+		height: 54px;
+	}
+
+	.img_logo{
+		width: 35px;
+	}
+
+	.hat_left_text{
+		font-size: 16px;
+	}
+
+	.hat_right{
+		display: none;
+	}
+
+	.dropdown2{
+		display: block;
+	}
+
+	.dropdown3{
+		display: block;
+	}
+
+	.container{
+		width: 750px;
+	}
+	.container_hat{
+		width: 750px;
+	}
+
+	.container_sub_hat{
+    	width: 750px;
+	}
+
+	.container2{
+    	width: 750px;
+    	padding-top: 60px;
+    	padding-bottom: 0px;
+	}
+
+	h2{
+	font-size: 40px;
+	}
+
+	.img_pleyr{
+	padding: 50px 0px;
+	}
+
+.block_img_music{
+	height: 234px;
+	width: 234px;	
+}
+
+ .sub_hat{
+	height: 675px;
+}
+
+.container_sub_hat2{
+	flex-wrap: wrap;
+}
+.table_sub{
+	width: 100%;
+}
+.h_6{
+	margin-right: 30px;
+}
+	
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+	.text_music_name{
+ 	font-size: 20px;
+ }
+
+.text_music_actor{
+ 	font-size: 16px;
+ }
+
+.text_hear{
+	color:#1db954;
+	font-size: 16px;
+	padding-top: 30px;
+}
+
+
+	.container{
+		width: 100%;
+    	padding: 0px 10px;
+	}
+	.container_hat{
+		width: 100%;
+		padding: 0px 20px;
+	}
+
+	.container_sub_hat{
+    	width: 100%;
+    	padding: 0px 20px;
+	}
+
+	.container2{
+    	width: 100%;
+    	height: 100%;
+    	padding: 0px 20px;
+    	padding-top: 60px;
+    	padding-bottom: 0px;
+	}
+	.btn_prem_all{
+	padding-top: 50px;
+	}
+	.text_prem_h1{
+	padding-top: 70px;
+	}
+	h1{
+	font-size:49px;
+	}
+
+	h3{
+	font-size: 24px;
+	}
+
+	.btn_preum{
+	margin-top: 35px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	}
+
+	.text_btn{
+		display: flex;
+	}
+
+	.btn_sub{
+		width: 100%;
+		padding: 0px;
+	}
+
+	.btn_see{
+		width: 100%;
+		padding: 0px;
+	}
+
+	.text_prem{
+		padding: 48px 0px;
+	}
+
+
+	.btn_sub:hover, .btn_sub:focus {
+	width: 100%;
+	margin: 5px 5px;
+}
+.btn_see:hover, .btn_see:focus {
+	width: 100%;
+	margin: 5px 5px;
+}
+
+
+
+.table_left{
+	flex-wrap: wrap;
+}
+
+.sub_hat{
+	height: 100%;
+}
+
+.container_sub_hat{
+    height: 100%;
+}
+
+.text_grup{
+	padding: 50px 0px 20px;
+}
+
+.table_sub_2{
+	padding: 100px 0px 20px;
+}
+.container_sub_hat_2_1{
+	padding-bottom: 20px;
+}
+
+.hat_left1{
+	padding-top: 50px;
+}
+.img_pleyr{
+	width: 100%;
+	height: 100%;
+	justify-content: space-around;
+	display: none;
+	}
+
+
+
+.swiper-container{
+  display: block;
+  width: 1000px;
+}
+
+.block_img_music2{
+ 	max-width: 50%;
+ 	display: flex;
+ 	flex-wrap: wrap;
+}
+.img_text_music2{
+	background-color:#fff;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+
+
+}
+.img_text_music2:hover, .img_text_music2:focus{
+  	opacity: 1;	
+ }
+.img_block2{
+	height: 50%;
+	width: 50%;
+}
+.container2{
+    	width: 100%;
+    	height: 100%;
+    	padding: 0px 20px;
+    	padding-top: 60px;
+    	padding-bottom: 0px;
+	}
+
+.plaer_2{
+	display: flex;
+}
+.text_music_name{
+	color: #919496;
+	font-size: 22px;
+}
+.text_music_actor{
+	color:#c3c5c7;
+	font-size: 20px;
+}
+.text_hear{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+
+}

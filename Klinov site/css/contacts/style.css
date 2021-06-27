@@ -1,0 +1,101 @@
+
+
+
+.contacts{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #484444;
+}
+
+
+.output-contacts{
+
+}
+
+
+.text-contact{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+}
+
+.contacts-text{
+    font-size: 28px;
+    margin-bottom: 16px;
+
+}
+
+
+.cont-text{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+
+.form-input-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-contacts{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+}
+
+.input-info{
+    padding: 0 20px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #484444;
+
+    width: 670px;
+    min-height: 55px;
+
+    margin-bottom: 16px;
+}
+
+
+.sms{
+    padding-top: 15px;
+    max-width: 670px;
+    min-width: 670px;
+    max-height: 1000px;
+
+}
+
+
+
+.defender-spam{
+ display: none;
+}
+
+
+.defender-items{
+
+}
+
+
+
+.input-sms{
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color: #6FAF27;
+    padding: 0 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 140px;
+    margin-left: calc(100% - 140px);
+    border-style: none;
+}
+
+.input-sms:hover{
+    background-color: #2b7619;
+}

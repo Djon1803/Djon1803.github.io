@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<title>Spotify</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, 
+	maximum-scale=1">
+
+
+
+</head>
+
+
+<body>
+	<header>
+		<div class="hat">
+			<div class="container_hat">
+				<div class="hat_left">
+					<a href="#" class="hat_left">
+						<img class="img_logo" src="assets/img/Spotify_logo.png">
+						<p class="hat_left_text">Spotify</p>
+					</a>
+				</div>
+
+
+
+
+				<div class="hat_right2">
+					<a class="dropdown2" href="https://www.spotify.com/ru-ru/account/overview/">
+						<img  class="img_profile" src="assets/img/profile.png">
+					</a>
+					<div class="dropdown3">
+						<label for="nav-toggle" class="nav-toggle" onclick></label>
+					
+					<input type="checkbox" id="nav-toggle" hidden>
+
+    				<nav class="nav">
+    						<label for="nav-toggle" class="nav-toggle" onclick></label>
+        					<ul>
+        						<a href="https://www.spotify.com/ru-ru/premium/?checkout=false" class="drop_menu_top">
+        							Premium
+        						</a>
+								<a href="https://support.spotify.com/ru-ru/?_gl=1*a858n6*_gcl_aw*R0NMLjE2MDI5NTY1OTIuQ0tmRTc0Q1B2T3dDRlZJTkdRb2QzRE1Gamc.&_ga=2.161381439.321009480.1602954545-629373925.1600580797&_gac=1.214529573.1602956659.CKfE74CPvOwCFVINGQod3DMFjg" class="drop_menu_top">Поддержка</a>
+								<a href="https://www.spotify.com/ru-ru/download/windows/" class="drop_menu_top">Скачать</a>
+								<li class="palka_goriz"></li>
+            					<a  href="#home" class="drop_menu_bottom"> Аккаунт</a>
+    							<a  href="#about" class="drop_menu_bottom"> Выйти</a>
+        					</ul>
+        				<div class="drop_logo">
+							<a href="#" class="hat_left">
+								<img class="img_logo" src="assets/img/Spotify_logo.png">
+								<p class="hat_left_text">Spotify</p>
+							</a>
+						</div>
+    				</nav>
+					</div>
+				</div>
+
+
+
+
+				<div class="hat_right" id="hat_1">
+						<a href="https://www.spotify.com/ru-ru/premium/?checkout=false" class="hat_right_text">Premium</a>
+						<a href="https://support.spotify.com/ru-ru/?_gl=1*a858n6*_gcl_aw*R0NMLjE2MDI5NTY1OTIuQ0tmRTc0Q1B2T3dDRlZJTkdRb2QzRE1Gamc.&_ga=2.161381439.321009480.1602954545-629373925.1600580797&_gac=1.214529573.1602956659.CKfE74CPvOwCFVINGQod3DMFjg" class="hat_right_text">Поддержка</a>
+						<a href="https://www.spotify.com/ru-ru/download/windows/" class="hat_right_text">Скачать</a>
+					<li class="palka"></li>
+
+
+					<div class="dropdown">
+						<button  class="btn_right_text">
+								<img  class="img_profile" src="assets/img/profile.png">
+								<p class="prof_text">Профиль</p>
+								<img class="img_down" src="assets/img/down.png">
+								
+						</button>
+
+						<div id="myDropdown" class="dropdown-content">
+    						<a  href="#home"><h4 class="dropdown_text_akk" >Аккаунт</h4></a>
+    						<a  href="#about"><h4 class="dropdown_text_exit" >Выйти</h4></a>
+  						</div>
+					</div>
+
+					
+
+					<script>
+						document.querySelector('.btn_right_text').onclick = function() {
+							document.getElementById('myDropdown').classList.toggle("show");
+						};
+					</script>
+				</div>
+
+					
+			</div>
+		</div>
+	</header>
+
+
+
+
+	<main>
+		<div class="main1">
+			<div class="container">
+				<div class="btn_prem_all">
+					<h1 class="text_prem_h1">Переходите на Premium. Вам понравится.</h1>
+					<h3>Бесплатный доступ к Spotify Premium на 3 месяца. 169₽ в месяц после пробного периода.</h3>
+					<div class="btn_preum">
+						<button class="btn_sub">
+							<a class="text_btn" href="https://www.spotify.com/ru-ru/purchase/offer/default-3-month-trial/" ><h4>ПОДПИСАТЬСЯ НА PREMIUM</h4></a>
+						</button>
+						<button class="btn_see">
+							<a href="https://www.spotify.com/ru-ru/premium/#PLANS" class="text_btn"><h4>СМОТРЕТЬ ТАРИФЫ</h4></a>
+						</button>
+					</div>
+				</div>
+				<div class="text_prem">
+					<p class="text_us">* Действуют </p>
+					<a href="https://www.spotify.com/ru-ru/legal/premium-promotional-offer-terms/" class="text_u_s"> Условия использования</a>
+					<p class="text_us">. Предложение доступно только для новых пользователей Spotify Premium.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="main2">
+			<div class="container2">
+				<h2>Не знаете, что послушать?</h2>
+				<h4 class="h_4">Продолжайте слушать с того места, где остановились</h4>
+				<button class="web_btn">
+					<a  class="text_btn2" href="#"> <h4>ОТКРЫТЬ ВЕБ-ПЛЕЕР</h4> </a>
+				</button>
+
+				<div class="img_pleyr">
+					<a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" >
+						<div class="block_img_music" >
+							<img src="assets/img/REGIONAL_GLOBAL_LARGE.jpg" class="img_block">
+							<div class="img_text_music">
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+					<a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF">
+						<div class="block_img_music" >
+							<img src="assets/img/malaletka.jpg" class="img_block">
+							<div class="img_text_music">
+								<h4 class="text_music_name" >Малалетка</h4>
+								<h4 class="text_music_actor" >Макс Корж</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+					<a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF">
+						<div class="block_img_music" >
+							<img src="assets/img/ab67616d0000b273b461ea676b6c3858ce862de9.jpg" class="img_block">
+							<div class="img_text_music">
+								<h4 class="text_music_name" >Название трека</h4>
+								<h4 class="text_music_actor" >Исполнитель</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+					<a href="https://open.spotify.com/artist/4GNC7GD6oZMSxPGyXy4MNB">
+						<div class="block_img_music" >
+							<img src="assets/img/ab67616d0000b2737b9639babbe96e25071ec1d4.jpg" class="img_block">
+							<div class="img_text_music">
+								<h4 class="text_music_name" >Before You Go</h4>
+								<h4 class="text_music_actor" >Lewis Capaldi</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+					<a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF">
+						<div class="block_img_music" >
+							<img src="assets/img/ab67616d0000b27338690ca1d82bb7dbf5fc7870.jpg" class="img_block">
+							<div class="img_text_music">
+								<h4 class="text_music_name" >Название трека</h4>
+								<h4 class="text_music_actor" >Исполнитель</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+					<a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF">
+						<div class="block_img_music" >
+							<img src="assets/img/ab67616d0000b2730824105a6282782aaabb0584.jpg" class="img_block">
+							<div class="img_text_music">
+								<h4 class="text_music_name" >Название трека</h4>
+								<h4 class="text_music_actor" >Исполнитель</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+				</div>
+
+                 
+				<div class="plaer_2">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+					<a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" class="swiper-slide" >
+						<div class="block_img_music2">
+							<img src="assets/img/REGIONAL_GLOBAL_LARGE.jpg" class="img_block2 ">
+							<div class="img_text_music2">
+								<h4 class="text_music_name" >Название трека</h4>
+								<h4 class="text_music_actor" >Исполнитель</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>
+							
+					</a>
+					<a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" class="swiper-slide">
+						<div class="block_img_music2" >
+							<img src="assets/img/malaletka.jpg" class="img_block2">
+							<div class="img_text_music2">
+								<h4 class="text_music_name" >Малалетка</h4>
+								<h4 class="text_music_actor" >Макс Корж</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+					<a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" class="swiper-slide">
+						<div class="block_img_music2" >
+							<img src="assets/img/ab67616d0000b273b461ea676b6c3858ce862de9.jpg" class="img_block2">
+							<div class="img_text_music2">
+								<h4 class="text_music_name" >Название трека</h4>
+								<h4 class="text_music_actor" >Исполнитель</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+					<a href="https://open.spotify.com/artist/4GNC7GD6oZMSxPGyXy4MNB" class="swiper-slide">
+						<div class="block_img_music2" >
+							<img src="assets/img/ab67616d0000b2737b9639babbe96e25071ec1d4.jpg" class="img_block2">
+							<div class="img_text_music2">
+								<h4 class="text_music_name" >Before You Go</h4>
+								<h4 class="text_music_actor" >Lewis Capaldi</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+					<a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF"  class="swiper-slide">
+						<div class="block_img_music2" >
+							<img src="assets/img/ab67616d0000b27338690ca1d82bb7dbf5fc7870.jpg" class="img_block2">
+							<div class="img_text_music2">
+								<h4 class="text_music_name" >Название трека</h4>
+								<h4 class="text_music_actor" >Исполнитель</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+					<a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF"  class="swiper-slide">
+						<div class="block_img_music2" >
+							<img src="assets/img/ab67616d0000b2730824105a6282782aaabb0584.jpg" class="img_block2">
+							<div class="img_text_music2">
+								<h4 class="text_music_name" >Название трека</h4>
+								<h4 class="text_music_actor" >Исполнитель</h4>
+								<h4 class="text_hear" >Слушать</h4>
+							</div>
+						</div>	
+					</a>
+					</div>
+					</div>
+					</div>
+
+<link rel="stylesheet" href="assets/css/swiper-bundle.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+			</div>
+		</div>
+	</main>
+
+
+
+	<div class="sub_hat">
+		<div class="container_sub_hat">
+			<div class="container_sub_hat2">
+				<div class="table_left">
+					<div class="table_sub">
+						<a href="#" class="hat_left1">
+							<img class="img_logo" src="assets/img/Spotify_logo.png">
+							<p class="hat_left_text">Spotify</p>
+						</a>
+					</div>
+					<div class="table_sub">
+						<p class="text_grup">компания</p>
+						<a href="https://www.spotify.com/ru-ru/about-us/contact/" class="text_gr">О нас</a>
+						<a href="https://www.spotifyjobs.com/?_ga=2.25606909.1536221297.1604237712-1843984206.1604237712" class="text_gr">Вакансии</a>
+						<a href="https://newsroom.spotify.com/?_ga=2.25606909.1536221297.1604237712-1843984206.1604237712" class="text_gr">For the Record</a>
+					</div>
+					<div class="table_sub">
+						<p class="text_grup">сообщества</p>
+						<a href="https://artists.spotify.com/?_ga=2.167664254.1536221297.1604237712-1843984206.1604237712" class="text_gr">Для исполнителей</a>
+						<a href="https://developer.spotify.com/?_ga=2.167664254.1536221297.1604237712-1843984206.1604237712" class="text_gr">Для разработчиков</a>
+						<a href="https://ads.spotify.com/en-US/?_ga=2.167664254.1536221297.1604237712-1843984206.1604237712" class="text_gr">Реклама</a>
+						<a href="https://investors.spotify.com/home/default.aspx" class="text_gr">Для инвесторов</a>
+						<a href="https://spotifyforvendors.com/" class="text_gr">Для вендоров</a>
+					</div>
+					<div class="table_sub">
+						<p class="text_grup">полезные ссулки</p>
+						<a href="https://support.spotify.com/ru-ru/?_ga=2.163863167.1536221297.1604237712-1843984206.1604237712" class="text_gr">Поддержка</a>
+						<a href="https://open.spotify.com/" class="text_gr">Веб-плеер</a>
+						<a href="https://www.spotify.com/ru-ru/download/windows/b/" class="text_gr">Бесплатное мобильное приложение</a>
+						<a href="https://www.spotify.com/ru-ru/wrapped/" class="text_gr">ВОТ ЭТО 2020</a>
+					</div>
+				</div>
+				
+
+				<div class="table_sub_1">
+					<div class="table_sub_2">
+						<a href="https://www.instagram.com/spotify/"><img class="img_logo_ss" src="assets/img/ins.jpg"></a>
+						<a href="https://twitter.com/spotify"><img class="img_logo_ss" src="assets/img/twt.jpg"></a>
+						<a href="https://www.facebook.com/Spotify"><img class="img_logo_ss" src="assets/img/fcb.jpg"></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="rus">
+				<h6 class="rus_text">Россия (русский)</h6>
+				<img class="img_rus" src="assets/img/rus.jpg">
+			</div>
+			<div class="container_sub_hat_2">
+				<div class="container_sub_hat_2_1">
+					<a class="h_6" href="https://www.spotify.com/ru-ru/legal/end-user-agreement/">Юридическая информация</a>
+					<a class="h_6" href="https://www.spotify.com/ru-ru/privacy/">Конфиденциальность</a>
+					<a class="h_6" href="https://www.spotify.com/ru-ru/legal/privacy-policy/">Политика конфиденциальности</a>
+					<a class="h_6" href="https://www.spotify.com/ru-ru/legal/cookies-policy/">Cookies</a>
+					<a class="h_6" href="https://www.spotify.com/ru-ru/legal/privacy-policy/#s3">О рекламе</a>
+				</div>
+				<div class="container_sub_hat_2_2">
+					<h6>© 2020 Spotify AB</h6>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

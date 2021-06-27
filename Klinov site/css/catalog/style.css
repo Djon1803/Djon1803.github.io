@@ -1,0 +1,121 @@
+
+.row {
+    flex-direction: column;
+  }
+  
+  .catalog {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0px -20px;
+  }
+  
+  .catalog-item {
+    width: 270px;
+    height: 285px;
+    padding: 0px 0px;
+    margin: 37px 15px;
+    margin-top: 14px;
+    background-color: #faf7e1;
+  }
+  
+  .catalog-item-link {
+    padding: 35px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    color: #2c2c2c;
+  }
+
+
+/* .catalog{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog-item{
+    height: 260px;
+    width: 270px;
+    position: relative;
+    display: block;
+    background: #FAF7E1;
+    margin-bottom: 25px;
+    color: #2c2c2c;
+} */
+
+.catalog-item:hover .catalog-item-name {
+    color: #76df20;
+}
+
+/* .catalog-item-link{
+    padding: 35px  0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    color: #2c2c2c;
+} */
+
+.catalog-item-name{
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2c2c2c;
+}
+
+.catalog-item-img{
+    width: 270px;
+    height: 170px;
+    background: url(../../image/tuja-zapadnaja.jpg) no-repeat center center/cover ;
+}
+
+
+
+
+
+
+
+/* .catalog {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 -20px 0 0;
+}
+
+.catalog-item {
+    height: 260px;
+    width: 270px;
+    position: relative;
+    display: block;
+    background: #FAF7E1;
+    margin-bottom: 25px;
+    color: #2c2c2c;
+    transition: width .2s;
+    display: block;
+    float: left;
+    transition: width .2s;
+    margin: 15px 10px;
+}
+
+
+.catalog-item-link {
+    padding: 35px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    color: #2c2c2c;
+    display: block;
+    border-radius: 3px;
+    position: relative;
+    margin: 0 20px 20px 0;
+    text-decoration: none;
+} */
